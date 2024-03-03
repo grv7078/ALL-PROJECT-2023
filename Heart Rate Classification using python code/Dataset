@@ -1,1 +1,5 @@
+Dataset using Kaggal
+# path to dataset
 
+normal_df = pd.read_csv("ptbdb_normal.csv", header = None)
+abnormal_df = pd.read_csv("ptbdb_abnormal.csv", header = None)
